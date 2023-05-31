@@ -1,2 +1,4 @@
 # world-skills-americas-guatemala-2021
-Laravel (10) || React
+
+# Backend:   ~ 5:00 
+# Frontend: ~ 3:20
