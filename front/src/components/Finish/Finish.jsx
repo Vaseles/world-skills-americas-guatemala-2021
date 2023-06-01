@@ -41,6 +41,7 @@ const Finish = ({display='none', opacity='0', scores=0}) => {
     >
       <div 
         className={styles.hello_window}  >
+         <p>Enter Your Name For Get Your Results:</p>
          {showResults? (
             <>
               <h2>Results</h2>
@@ -62,7 +63,6 @@ const Finish = ({display='none', opacity='0', scores=0}) => {
             </>
          ): (
             <>
-               <p>Enter Your Name For Get Your Results:</p>
              <input 
                   type="text"
                   placeholder='Enter your name...' 

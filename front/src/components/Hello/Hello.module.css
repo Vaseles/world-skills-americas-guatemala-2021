@@ -16,10 +16,10 @@ p {
 }
 
 .result__list {
-   @apply  gap-2 mb-2 flex flex-wrap items-center w-full max-w-2xl;
+   @apply w-40 gap-2 mb-2
 }
 .result {
-   @apply w-full flex justify-between items-center mb-2 bg-gray-700 p-2 pr-4 pl-4 rounded-md w-40;
+   @apply w-full flex justify-between items-center mb-2 bg-gray-700 p-2 pr-4 pl-4 rounded-md
 }
 .result span {
    @apply bg-pink-600 text-black p-1 rounded-md
