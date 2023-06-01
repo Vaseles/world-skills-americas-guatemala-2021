@@ -1,7 +1,7 @@
 # world-skills-americas-guatemala-2021
 
 # Backend:   ~ 5:00 
-# Frontend: ~ 3:20
+# Frontend: ~ 4:10
 
 <h2>Backend</h2>
 

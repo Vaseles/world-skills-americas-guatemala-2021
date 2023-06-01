@@ -2,11 +2,11 @@ import { useState } from 'react'
 import styles from './Hello.module.css'
 import Button from '../ui/Button/Button'
 
-const Hello = () => {
+const Hello = (display='flex', opacity=1) => {
   // !______________________  FLEX  1 ____________________!
   // states
-  const [helloWindow, setHelloWindow] = useState('flex')
-  const [opacityHelloWindow, setOpacityHelloWindow] = useState('1')
+  const [helloWindow, setHelloWindow] = useState(display)
+  const [opacityHelloWindow, setOpacityHelloWindow] = useState(opacity)
 
   // Closed window
   const closeWindow = () => {
